@@ -18,6 +18,7 @@ class Employee {
 
         public int wageHour = 20;
         public int fullDay = 8;
+		  public int halfDay = 4;
         public int totalWage = 0;
         public int dailyWage = 0;
 
@@ -40,6 +41,12 @@ class Employee {
                         dailyWage = fullDay * wageHour;
                         totalWage += dailyWage;
                         break;
+
+
+						case 1:
+								dailyWage = halfDay * wageHour;
+								totalWage += dailyWage;
+								break;
 
 
                 default:
