@@ -56,7 +56,7 @@ class Employee {
 
         protected void computeEmpWage() {
 
-                for (int i = 1; i <= 1; i++) {
+                for (int i = 1; i <= 20; i++) {
                         if (attendance()) {
                                 dailyEmpWage();
                                 System.out.println(" " + i + "  " + "Present" + " " + dailyWage + "     " + totalWage);
@@ -65,7 +65,10 @@ class Employee {
                                 dailyWage = 0;
                                 System.out.println(" " + i + "  " + "Absent" + " " + dailyWage + "      " + totalWage);
                         }
-                }
+
+
+                 }
+			System.out.println("\nHence, Total employee wage for a month = " + totalWage);
 }
 }
 
